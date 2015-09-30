@@ -1,0 +1,72 @@
+{
+ "sections": [
+  {
+   "id": "2a9f14f-35ac-1844-13fc-84f524c5cf3a",
+   "title": "- Overview",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "2-panels-tree",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/--Overview-2a9f.md"
+  },
+  {
+   "id": "46e1154c-228-e30c-d7bf-2c888dcb7b7a",
+   "title": "- Review Project",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/--Review-Project-46e1.md"
+  },
+  {
+   "id": "916eb33c-93ca-ee1b-da42-15ddf024e0",
+   "title": "- Steps 1-6",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/--Steps-1-6-916e.md"
+  },
+  {
+   "id": "f35a3e98-b843-9002-9f8d-4434b23d56f9",
+   "title": "- Step 7",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/--Step-7-f35a.md"
+  },
+  {
+   "id": "862a3783-d133-e52f-8dbf-611f5c51eb86",
+   "title": "- Step 8",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/--Step-8-862a.md"
+  },
+  {
+   "id": "393bf0e3-a348-1b35-5bb2-19f811cae7f1",
+   "title": "- Step 9",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/--Step-9-393b.md"
+  },
+  {
+   "id": "8c0e29a1-fb6-8fa8-ae82-af6111b0e9e0",
+   "title": "- Step 10",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/--Step-10-8c0e.md"
+  }
+ ],
+ "theme": "paper",
+ "scripts": []
+}
