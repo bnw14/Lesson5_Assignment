@@ -4,6 +4,7 @@
 <li>Return to the <b>seminole.js</b> file.</li>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <li>Below the <code>addCalendarDates()</code> function AND <b>ABOVE</b> the <code>window.addEventListener</code> statement, enter the following code to add a comment and create the structure of a new function named <code>addGameInfo()</code>, which will add the opposing team information on the calendar:
 <b><pre>//This function will place the game information in the calendar
 function addGameInfo() {
@@ -16,6 +17,8 @@ function addGameInfo() {
 var paragraphs = "";
 </pre></b>
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <li>Below the <code>addCalendarDates()</code> function, enter the following code to add a comment and create the structure of a new function named <code>addGameInfo()</code>:
 <pre>// function to place day of month value in first p element 
 // within each table data cell that has an id 
@@ -28,6 +31,9 @@ function addGameInfo() {
 <pre>
 var paragraphs = "";
 </pre>
+<<<<<<< HEAD
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 This statement creates a variable named <code>paragraphs</code> and sets its value to an empty string.
 </li>
@@ -35,6 +41,7 @@ This statement creates a variable named <code>paragraphs</code> and sets its val
 <li>
 Below the variable declaration, enter the following code:
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <b><pre>
 for (var i = 0; i < 31; i++) {
@@ -47,12 +54,21 @@ This code starts a <code>for</code> loop.  It creates a counter variable named <
 for (var i = 0; i < 31; i++) {</pre> 
 This code starts a <code>for</code> loop.  It creates a counter variable named <i> and sets its value to 0.</i>  It specifies the condition <code>i < 31;</code> as long as this condition is satisfied, the <code>for</code> command block will repeat.  Finally, the code i++ increments the <code>i</code> counter variable with each iteration.
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
+<pre>
+for (var i = 0; i < 31; i++) {</pre> 
+This code starts a <code>for</code> loop.  It creates a counter variable named <i> and sets its value to 0.</i>  It specifies the condition <code>i < 31;</code> as long as this condition is satisfied, the <code>for</code> command block will repeat.  Finally, the code i++ increments the <code>i</code> counter variable with each iteration.
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 </li>
 
 <li>
 Within the code block for the <code>for</code> statement, enter the following statement:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <b><pre>var date = i+1;</pre></b>
+=======
+<pre>var date = i+1;</pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 <pre>var date = i+1;</pre>
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
@@ -62,7 +78,11 @@ This statement creates a variable called date and assigns a value to it equal to
 <li>
 Below the statement you created in the previous step, enter the following statement:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <b><pre>var tableCell = document.getElementById("08-" + date);</pre></b>
+=======
+<pre>var tableCell = document.getElementById("08-" + date);</pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 <pre>var tableCell = document.getElementById("08-" + date);</pre>
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
@@ -71,7 +91,11 @@ This statement creates a variable called <code>tableCell</code> and uses the <co
 <li>
 Below the statement you created in the previous step, enter the following statement:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <b><pre> paragraphs = tableCell.getElementsByTagName("p");</pre></b>
+=======
+<pre> paragraphs = tableCell.getElementsByTagName("p");</pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 <pre> paragraphs = tableCell.getElementsByTagName("p");</pre>
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
@@ -81,7 +105,11 @@ This statement uses the <code>getElementByTagName</code> method to look up all <
 <li>
 Below the statement you created in the previous step, enter the following statement:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <b><pre> paragraphs[1].innerHTML += opponents[i];</pre></b>
+=======
+<pre> paragraphs[1].innerHTML += opponents[i];</pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 <pre> paragraphs[1].innerHTML += opponents[i];</pre>
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
@@ -98,6 +126,7 @@ function addGameInfo() {
       paragraphs = tableCell.getElementsByTagName("p");
       paragraphs[1].innerHTML += opponents[i];
 <<<<<<< HEAD
+<<<<<<< HEAD
    }//end of the for loop
 }//end of the function
 </pre>
@@ -106,6 +135,8 @@ function addGameInfo() {
 Within the <code>setUpPage()</code> function, before the closing <code>}//end of setUpPage function</code>, add the statement <b>addGameInfo();</b> so your <code>setUpPage()</code> function matches the following:
 <b><pre>
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
    }
 }
 </pre>
@@ -113,6 +144,9 @@ Within the <code>setUpPage()</code> function, before the closing <code>}//end of
 <li>
 Within the <code>setUpPage()</code> function, before the closing <code>}</code>, add the statement <b>addGameInfo();</b> so your <code>setUpPage()</code> function matches the following:
 <pre>
+<<<<<<< HEAD
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 // function to populate calendar 
 function setUpPage() {
@@ -120,8 +154,13 @@ function setUpPage() {
    addCalendarDates();
    addGameInfo();
 <<<<<<< HEAD
+<<<<<<< HEAD
 }//end of setUpPage function
 </pre></b>
+=======
+}
+</pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 }
 </pre>

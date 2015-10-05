@@ -1,7 +1,11 @@
 <h1><b>Project Name:</b>            Seminole Trojans Baseball Calendar</h1>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h1><b>Assignment Points:  75</b></h1>
+=======
+<h1><b>Assignment Points:  30</b></h1>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 <h1><b>Assignment Points:  30</b></h1>
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43

@@ -4,7 +4,11 @@
 <li>Return to the <b>seminole.js</b> file.</li>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <li>BELOW the <code>addColumnsHeaders()</code> function and ABOVE the <code>window.addEventListener</code>code> statement, enter the following code to add a comment and create the structure of a new function named <code>addCalendarDates()</code>:
+=======
+<li>Below the <code>addColumnsHeaders()</code> function, enter the following code to add a comment and create the structure of a new function named <code>addCalendarDates()</code>:
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 <li>Below the <code>addColumnsHeaders()</code> function, enter the following code to add a comment and create the structure of a new function named <code>addCalendarDates()</code>:
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
@@ -13,15 +17,21 @@
 function addCalendarDates() {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <br /><br />
 
 
 }//end of addCalendarDates function</pre>
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 
 
 
 }//end of function</pre>
+<<<<<<< HEAD
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 </li>
 
@@ -40,7 +50,11 @@ Below the variable declarations, enter the following code:
 do {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 }//end of do/while loop</pre> 
+=======
+}</pre> 
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 }</pre> 
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
@@ -74,8 +88,13 @@ This statement increments the counter variable.
 </li>
 <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <b>After</b> AND on the <b>same line</b> of the closing <code>}//end of do/while loop</code> for the <code>do</code> command block, and before the closing <code>}</code> for the function, add the following statement:
 <pre>while (i < 32); </pre>
+=======
+After the closing <code>}</code> for the <code>do</code> command block, but before the closing <code>}</code> for the function, add the following statement:
+<pre>while (i <= 31);</pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 After the closing <code>}</code> for the <code>do</code> command block, but before the closing <code>}</code> for the function, add the following statement:
 <pre>while (i <= 31);</pre>
@@ -92,6 +111,7 @@ function addCalendarDates() {
       paragraphs = tableCell.getElementsByTagName("p");
       paragraphs[0].innerHTML = i;
       i++;      
+<<<<<<< HEAD
 <<<<<<< HEAD
    } while (i < 32);
 }//end of addCalendarDates function </pre>
@@ -126,6 +146,8 @@ Reload/refresh the <b>calendar.htm</b> file and view the web page ("Preview stat
 
 </ol>
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
    } while (i <= 31);
 }//end of function</pre>
 Because you now have multiple functions to run when the page loads, you will create a master function to call when the page loads.  This function will in turn call each of the functions that needs to run on page load.
@@ -152,5 +174,9 @@ window.addEventListener("load", setUpPage, false);
 <li>Reload the <b>calender.htm</b> and view the web page.  As you can see, the table cells should now contain the days of the month with consecutive numbers from 1-31.</li>
 
 
+<<<<<<< HEAD
+<center><img src=".guides/img/SeminoleTrojan_Days.png" alt="Seminole Trojans" /></center>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 <center><img src=".guides/img/SeminoleTrojan_Days.png" alt="Seminole Trojans" /></center>
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43

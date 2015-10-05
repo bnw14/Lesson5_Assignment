@@ -4,15 +4,21 @@
 <li>Return to the <b>seminole.js</b> file.</li>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <li>Within the <code>addGameInfo()</code> function, within the data block for the for loop, insert a new line before the final statement in the for-loop, enter the code <b>if (gameLocation[i] === "away")  {, </b>press <b>ENTER</b> twice, and then enter a closing <b>}</b> as shown below:
 
 <pre>
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <li>Within the <code>addGameInfo()</code> function, within the data block for the for loop, insert a new line before the final statement, enter the code <b>if (gameLocation[i] === "away")  {, </b>press <b>ENTER</b> twice, and then enter a closing <b>}</b> as shown below:
 
 <pre>
 paragraphs = tableCell.getElementsByTagName("p");
 
+<<<<<<< HEAD
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <mark>if (gameLocation[i] === "away") {  </mark>
 
@@ -27,6 +33,7 @@ This code starts with <code>if</code> statement, followed by parentheses contain
 <pre>
 if (gameLocation[i] === "away") {
 <<<<<<< HEAD
+<<<<<<< HEAD
     <mark>paragraphs[1].innerHTML = "@ ";</mark>
     <mark>paragraphs[1].innerHTML += opponents[i];</mark>
 }//end of if</pre>
@@ -34,6 +41,8 @@ This statement sets the content of the first paragraph in the current cell equal
 </li>
 
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <mark>paragraphs[1].innerHTML = "@ ";</mark>
 }</pre>
 This statement sets the content of the first paragraph in the current cell equal to "@".
@@ -51,6 +60,9 @@ Because you've just added content to the second paragraph using your <code>if</c
 
 
 
+<<<<<<< HEAD
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <li>Reload the <b>calender.htm</b> and view the web page.  As you can see, <b>"@"</b> followed by a space is now displayed before the opponent names in some of the table cells.  These dates correspond to the elements in the <code>gameLocation</code> array with a value of "away". </li>
 
@@ -61,7 +73,11 @@ Because you've just added content to the second paragraph using your <code>if</c
 In order to add the text "vs" followed by a space before the names of the opponents for home games, you need to create another <code>if</code> statement.
 <br>
 <<<<<<< HEAD
+<<<<<<< HEAD
 Immediately after the closing <code>}</code> for the <code>if</code> statement you created in the previous steps, enter the following code to create an <code>else if</code> statement:
+=======
+Immediately after the closing <code>}</code> for the <code>if</code> statement you created in the previous steps, enter the following code to create a second <code>if</code> statement:
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 Immediately after the closing <code>}</code> for the <code>if</code> statement you created in the previous steps, enter the following code to create a second <code>if</code> statement:
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
@@ -70,9 +86,14 @@ Immediately after the closing <code>}</code> for the <code>if</code> statement y
  else if (gameLocation[i] === "home") {
              paragraphs[1].innerHTML = "vs ";
 <<<<<<< HEAD
+<<<<<<< HEAD
              paragraphs[1].innerHTML += opponents[i];
  }//end of else if
 
+=======
+      }
+ }
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
       }
  }
@@ -93,6 +114,7 @@ function addGameInfo() {
       var tableCell = document.getElementById("08-" + date);
       paragraphs = tableCell.getElementsByTagName("p");
 <<<<<<< HEAD
+<<<<<<< HEAD
       paragraphs[1].innerHTML += opponents[i];<br>      
       <mark>if (gameLocation[i] === "away") {</mark>
             <mark>paragraphs[1].innerHTML = "@ ";</mark>
@@ -105,6 +127,8 @@ function addGameInfo() {
       //end of for loop
 }//end of addGameInfo function
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
       <mark>if (gameLocation[i] === "away") {</mark>
             <mark>paragraphs[1].innerHTML = "@ ";</mark>
       <mark>} </mark>
@@ -115,6 +139,9 @@ function addGameInfo() {
       paragraphs[1].innerHTML <mark>+=</mark> opponents[i];
    }
 }
+<<<<<<< HEAD
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 </pre>
 </li>
@@ -124,7 +151,11 @@ function addGameInfo() {
 <center><img src=".guides/img/SeminoleTrojan_Home.png" alt="Seminole Trojans" /></center>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <center><h1>Congratulations you have completed Assignment 5!</h1></center>
+=======
+<center><h1>Congratulations you have completed <br><b>PART 1</b> of Assignment 5!</h1></center>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 <center><h1>Congratulations you have completed <br><b>PART 1</b> of Assignment 5!</h1></center>
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43

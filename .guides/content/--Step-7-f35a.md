@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h1>Step 7 - Create a function which uses a <b><em>while</em></b> loop to place the days of the week in the table.</h1>
+=======
+<h1>Step 7 - Create a function using a <b><em>while</em></b> loop to place the days of the week in the table</h1>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 <h1>Step 7 - Create a function using a <b><em>while</em></b> loop to place the days of the week in the table</h1>
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
@@ -7,6 +11,7 @@
 <ol>
 <li>In the <b>seminole.js</b> file, below the array declarations, enter the following code to add a comment and create the structure of a function named <b>addColumnHeaders()</b>: 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <pre><b>// function to place daysOfWeek values in header row cells 
 function addColumnHeaders() {
@@ -18,6 +23,8 @@ function addColumnHeaders() {
 <li><b>INSIDE</b> the body of the <b>addColumnHeaders()</b> function, enter the following variable declaration:
 <pre><b>var i = 0;</b></pre>
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <pre>// function to place daysOfWeek values in header row cells 
 function addColumnHeaders() {
 
@@ -27,6 +34,9 @@ function addColumnHeaders() {
 
 <li>Within the body of the <b>addColumnHeaders()</b> function, enter the following variable declaration:
 <pre>var i = 0;</pre>
+<<<<<<< HEAD
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 This statement creates a counter variable called <code>i</code> and sets its value to <code>0</code>.
 </li>
@@ -34,15 +44,21 @@ This statement creates a counter variable called <code>i</code> and sets its val
 <li>
 Below the variable declaration, enter the following code:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <pre><b>while (i < 7) {
 <br /><br />
 
 }//end of while loop </b></pre>
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <pre>while (i < 7) {
 
 
 }//end of while loop</pre>
+<<<<<<< HEAD
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 This code creates a <code>while</code> loop that sets the condition <code>i < 7</code>.  This means that everytime the loop restarts and the value of the counter variable is less than 7, the loop will go through another iteration.
 </li>
@@ -51,9 +67,14 @@ This code creates a <code>while</code> loop that sets the condition <code>i < 7<
 Within the command block for the <code>while</code> loop, enter the following statement:
 <pre>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <b>document.getElementsByTagName("th")[i].innerHTML = daysOfWeek[i];</b>
 </pre>
 
+=======
+ document.getElementsByTagName("th")[i].innerHTML = daysOfWeek[i];
+</pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
  document.getElementsByTagName("th")[i].innerHTML = daysOfWeek[i];
 </pre>
@@ -66,7 +87,11 @@ For instance, in the first interation of this loop, the value of <code>i</code> 
 <li>
 Below the statement you created in the previous step, enter the following statement:
 <<<<<<< HEAD
+<<<<<<< HEAD
 <pre><b>i++;</b></pre>
+=======
+<pre>i++;</pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 <pre>i++;</pre>
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
@@ -76,7 +101,11 @@ This statement increments the counter variable.  <br>
 The following is the completed code for the <code>addColumnHeaders()</code> function.  <b>Verify that you have written the function correctly!!!</b>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <pre><b>
+=======
+<pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 <pre>
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
@@ -88,20 +117,27 @@ function addColumnHeaders() {
       i++;
    }//end of while loop
 <<<<<<< HEAD
+<<<<<<< HEAD
 }//end of addColumnHeaders function
 
 
 </b></pre>
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 }//end of function
 
 
 </pre>
+<<<<<<< HEAD
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 
 </li>
 
 <li>
+<<<<<<< HEAD
 <<<<<<< HEAD
 Below (outside of) the function you just created, enter the following comment and statement:
 <pre><b>
@@ -109,10 +145,15 @@ Below (outside of) the function you just created, enter the following comment an
 window.addEventListener("load", addColumnHeaders, false);
 </b></pre>
 =======
+=======
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 Below the function you just created, enter the following comment and statement:
 <pre>
 window.addEventListener("load", addColumnHeaders, false);
 </pre>
+<<<<<<< HEAD
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
+=======
 >>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 
 This statement calls the <code>addColumnHeaders()</code> function when the page finishes loading a browser.
@@ -120,12 +161,17 @@ This statement calls the <code>addColumnHeaders()</code> function when the page 
 
 <li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 Reload/refresh the <b>calendar.htm</b> file and view the web page ("Preview static").  The table header rows are now populated in the calendar.
 </li>
 
 <center><b>CONGRATULATIONS!!  YOU NOW HAVE COLUMN HEADERS!!</b></center>
 <hr>
 
+=======
+Reload/refresh the <b>calendar.htm</b> file and view the web page ("Preview static").  The table header rows are now populated with the days of the week in the same order you entered them in the <code>daysOfWeek</code> array.
+</li>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 =======
 Reload/refresh the <b>calendar.htm</b> file and view the web page ("Preview static").  The table header rows are now populated with the days of the week in the same order you entered them in the <code>daysOfWeek</code> array.
 </li>
