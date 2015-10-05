@@ -3,15 +3,26 @@
 <ol>
 <li>Return to the <b>seminole.js</b> file.</li>
 
+<<<<<<< HEAD
 <li>BELOW the <code>addColumnsHeaders()</code> function and ABOVE the <code>window.addEventListener</code>code> statement, enter the following code to add a comment and create the structure of a new function named <code>addCalendarDates()</code>:
+=======
+<li>Below the <code>addColumnsHeaders()</code> function, enter the following code to add a comment and create the structure of a new function named <code>addCalendarDates()</code>:
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <pre>// function to place day of month value in first p element 
 // within each table data cell that has an id 
 function addCalendarDates() {
 
+<<<<<<< HEAD
 <br /><br />
 
 
 }//end of addCalendarDates function</pre>
+=======
+
+
+
+}//end of function</pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 </li>
 
 <li>Within the <code>addCalendarDates()</code> function, enter the following statements:
@@ -28,7 +39,11 @@ Below the variable declarations, enter the following code:
 <pre>
 do {
 
+<<<<<<< HEAD
 }//end of do/while loop</pre> 
+=======
+}</pre> 
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 This code starts a do/while statement with the <code>do</code> keyword.
 
 </li>
@@ -58,8 +73,13 @@ Below the statement you created in the previous step, enter the following statem
 This statement increments the counter variable.
 </li>
 <li>
+<<<<<<< HEAD
 <b>After</b> AND on the <b>same line</b> of the closing <code>}//end of do/while loop</code> for the <code>do</code> command block, and before the closing <code>}</code> for the function, add the following statement:
 <pre>while (i < 32); </pre>
+=======
+After the closing <code>}</code> for the <code>do</code> command block, but before the closing <code>}</code> for the function, add the following statement:
+<pre>while (i <= 31);</pre>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 This conditional statement determines whether the <code>do</code> command block is repeated for another iteration.  Because the month of August has 31 days, the block should be executed 31 times.  After the 31st time, the counter variable will be 32, which is not less than or equal to 31, so the <code>do/while</code> statement will end without iterating again.  The following shows the <b>completed code</b> for the <code>addCalendarDates()</code> function.
 <pre>
 // function to place day of month value in first p element 
@@ -72,6 +92,7 @@ function addCalendarDates() {
       paragraphs = tableCell.getElementsByTagName("p");
       paragraphs[0].innerHTML = i;
       i++;      
+<<<<<<< HEAD
    } while (i < 32);
 }//end of addCalendarDates function </pre>
 Because you now have multiple functions to run when the page loads, you will create a master function called, <code>setUpPage()</code>to call when the page loads.  This function will in turn call each of the functions that need to run when the page loads in the browswer.  We will create this function in the next!!  
@@ -104,3 +125,32 @@ Reload/refresh the <b>calendar.htm</b> file and view the web page ("Preview stat
 <center><b>CONGRATULATIONS!!  YOU NOW HAVE COLUMN HEADERS AND THE DAYS OF THE DAYS OF THE WEEK!!</b></center>
 
 </ol>
+=======
+   } while (i <= 31);
+}//end of function</pre>
+Because you now have multiple functions to run when the page loads, you will create a master function to call when the page loads.  This function will in turn call each of the functions that needs to run on page load.
+</li>
+
+<li>
+Below the function you just created, enter the following comment and statement:
+<pre>
+// function to populate calendar 
+function setUpPage() {
+   addColumnHeaders();   
+   addCalendarDates();
+}//end of function
+</pre>
+This code creates a new function name <code>setUpPage()</code> that calls the addColumnHeaders() and <code>addCalendarDates()</code> functions.  You need to change the event listener call to this function when the page finishes loading.
+</li>
+<li>
+In the the <b>seminole.js</b> file, replace the occurrences of <code>addColumnHeaders</code> with <b>setUpPage</b> so your code matches the following:
+<pre>// runs setUpPage() function when page loads
+window.addEventListener("load", setUpPage, false);
+</pre>
+
+</li>
+<li>Reload the <b>calender.htm</b> and view the web page.  As you can see, the table cells should now contain the days of the month with consecutive numbers from 1-31.</li>
+
+
+<center><img src=".guides/img/SeminoleTrojan_Days.png" alt="Seminole Trojans" /></center>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43

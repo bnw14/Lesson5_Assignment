@@ -12,10 +12,14 @@
    "layout": "2-panels-tree",
    "path": [],
    "type": "markdown",
+<<<<<<< HEAD
    "content-file": ".guides/content/--Overview-2a9f.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
+=======
+   "content-file": ".guides/content/--Overview-2a9f.md"
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
   },
   {
    "id": "46e1154c-228-e30c-d7bf-2c888dcb7b7a",
@@ -24,10 +28,14 @@
    "layout": "",
    "path": [],
    "type": "markdown",
+<<<<<<< HEAD
    "content-file": ".guides/content/--Review-Project-46e1.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
+=======
+   "content-file": ".guides/content/--Review-Project-46e1.md"
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
   },
   {
    "id": "916eb33c-93ca-ee1b-da42-15ddf024e0",
@@ -36,10 +44,14 @@
    "layout": "",
    "path": [],
    "type": "markdown",
+<<<<<<< HEAD
    "content-file": ".guides/content/--Steps-1-6-916e.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
+=======
+   "content-file": ".guides/content/--Steps-1-6-916e.md"
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
   },
   {
    "id": "f35a3e98-b843-9002-9f8d-4434b23d56f9",
@@ -48,10 +60,14 @@
    "layout": "",
    "path": [],
    "type": "markdown",
+<<<<<<< HEAD
    "content-file": ".guides/content/--Step-7-f35a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
+=======
+   "content-file": ".guides/content/--Step-7-f35a.md"
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
   },
   {
    "id": "862a3783-d133-e52f-8dbf-611f5c51eb86",
@@ -59,10 +75,14 @@
    "files": [],
    "path": [],
    "type": "markdown",
+<<<<<<< HEAD
    "content-file": ".guides/content/--Step-8-862a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
+=======
+   "content-file": ".guides/content/--Step-8-862a.md"
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
   },
   {
    "id": "393bf0e3-a348-1b35-5bb2-19f811cae7f1",
@@ -71,10 +91,14 @@
    "layout": "",
    "path": [],
    "type": "markdown",
+<<<<<<< HEAD
    "content-file": ".guides/content/--Step-9-393b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
+=======
+   "content-file": ".guides/content/--Step-9-393b.md"
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
   },
   {
    "id": "8c0e29a1-fb6-8fa8-ae82-af6111b0e9e0",
@@ -82,6 +106,7 @@
    "files": [],
    "path": [],
    "type": "markdown",
+<<<<<<< HEAD
    "content-file": ".guides/content/--Step-10-8c0e.md",
    "chapter": false,
    "reset": [],
@@ -102,4 +127,11 @@
  "theme": "paper",
  "scripts": [],
  "lexikonTopic": ""
+=======
+   "content-file": ".guides/content/--Step-10-8c0e.md"
+  }
+ ],
+ "theme": "paper",
+ "scripts": []
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 }

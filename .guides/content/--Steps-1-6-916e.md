@@ -1,6 +1,7 @@
 <h1>Step 1 - Create the 'seminole.js' file:</h1>
 Create a new file in the <b>'Lesson5_Exercise'</b> folder.
 <ol>
+<<<<<<< HEAD
 <li>Right Click on the FOLDER <b>'Lesson5_Assignment_Part1'</b>.  Make sure you are not selecting the Project!!</li>
 <li>Select <b>'New File'</b></li>
 <li>Name the new file:  <b><mark>seminole.js</mark></b></li>
@@ -9,6 +10,15 @@ Create a new file in the <b>'Lesson5_Exercise'</b> folder.
 <h1>Step 2 - Add Comments</h1>
 
 <b>REMINDER:  Clear all content from the new file!!!</b>  Now, enter your name and today's date where indicated below:<br>
+=======
+<li>Right Click on the folder <b>'Lesson5_Exercise'</b></li>
+<li>Select <b>'New File'</b></li>
+<li>Name the new file:  <b><mark>seminole.js</mark></b></li>
+</ol>
+<h1>Step 2 - Add Comments</h1>
+
+<b>Clear all content from the new file!!!</b>  Now, enter your name and today's date where indicated below:<br>
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <pre>
 //    Program Name:  Seminole Trojans <br>
 //    Program topics:  Variables, Functions, Arrays, Loops<br>
@@ -16,7 +26,11 @@ Create a new file in the <b>'Lesson5_Exercise'</b> folder.
 //    Date:   <br>
 //    Filename: seminole.js<br>
 </pre>
+<<<<<<< HEAD
 <b>REMINDER:  Do not copy and paste the statements into your .js file.  If you do, you may have to replace ALL <b>" "</b> in the file.  Codio will not always copy double quotes correctly and MAY keep you from successfully rendering the page!!!</b> <br>
+=======
+
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <p>
 <h1>Step 3 - Declare the array literal - <code>daysOfWeek</code></h1>
 Below the comment section, enter the following code to declare the <code>daysOfWeek</code> variable and set its value using an array literal:<br>
@@ -68,16 +82,25 @@ For instance, the first four days of the month, August 1-4, the games are away, 
 
 
 <h1>Step 6 - </h1>
+<<<<<<< HEAD
 Return to <b>calender.htm</b> file and add the following code at the bottom of the document, just above the <b>closing</b> <code>body</code> tag:
+=======
+Return to <b>calender.htm</b> file and add the following code at the bottom of the document, just above the closing <code>body</code> tag:
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 <pre>&lt;script src="seminole.js">&lt;/script></pre>
 
 Refresh or reload the <b>calendar.htm</b> file and preview the web page.  
 
 <p>
 
+<<<<<<< HEAD
 <b><h1>NOTE:</h1></b>   Although you've declared three array variables, <b>you have not yet referenced their values in any JavaScript code, so the web page still contains an empty table.</b>  You will create functions to insert the array values in the table in a later step!
 
 <center><b>BE PATIENT!!!</b></center>
+=======
+<b><h1>NOTE:</h1></b>   Although you've declared three array variables, you have not yet referenced their values in any JavaScript code, so the web page still contains an empty table.  You will create functions to insert the array values in the table in a later step!
+
+>>>>>>> 72eb571e27327498cb5316204990ca7d603aea43
 </p>
 
 
